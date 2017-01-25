@@ -1,7 +1,7 @@
 #! /bin/bash
 # ./txalert.sh <txhash> <# of confirmations desired,no input = 1>
 # you need to install jq json parser, sudo apt-get install jq
-# you also need a file to play for the alert the doorbell.wav is not included
+
 
 confirmstatus=0
 if [[ -z $2 ]]; then
